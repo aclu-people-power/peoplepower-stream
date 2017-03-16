@@ -1,0 +1,11 @@
+dependencies:
+  override:
+    - npm install
+
+test:
+  override:
+    - grunt csslint
+    - grunt accessibility
+    - grunt htmllint
+    - grunt jshint
+
